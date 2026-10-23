@@ -1,0 +1,6 @@
+{
+  "fingerprintLogin": "biometric_fingerprint",
+  "fingerprintPay": "biometric_fingerprint",
+  "faceIdLogin": "biometric_face_id",
+  "faceIdPay": "biometric_face_id_pay"
+}

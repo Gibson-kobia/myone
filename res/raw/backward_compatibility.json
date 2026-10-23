@@ -1,0 +1,244 @@
+[
+  {
+    "Template": "KE Piped",
+    "Market": "kenya",
+    "Network": "Blash",
+    "TransactionType": "03",
+    "MpaBaseVersion": "1.0",
+    "SpecificationFieldRegex": "^(.{2})[\\|]([^\\|]{1,25})$",
+    "Rank": 0,
+    "Stage": "published",
+    "Status": "approved",
+    "DraftStep": 3,
+    "Fields": [
+      {
+        "Id": "6230167cfa0daaf4bd7880bd",
+        "Order": 1,
+        "MpaKey": "trxCode",
+        "MpaParentKey": null,
+        "MpaFieldId": "02",
+        "MpaFieldName": "Trx Code",
+        "MapFieldId": null,
+        "MapFieldName": "TrxCode",
+        "Validations": {
+          "Required": true,
+          "Format": "N",
+          "LengthType": "fixed",
+          "LengthMin": 2,
+          "LengthMax": 2
+        },
+        "DefaultValue": null,
+        "ValueMap": [
+          {
+            "MpaValue": "01",
+            "MapValue": "BG"
+          },
+          {
+            "MpaValue": "02",
+            "MapValue": "WA"
+          },
+          {
+            "MpaValue": "03",
+            "MapValue": "PB"
+          },
+          {
+            "MpaValue": "04",
+            "MapValue": "SM"
+          },
+          {
+            "MpaValue": "05",
+            "MapValue": "SB"
+          }
+        ],
+        "Children": [],
+        "Rules": [
+          {
+            "ruleType": "fillParam",
+            "ruleValue": "fillParam(qrType,01)"
+          },
+          {
+            "ruleType": "fillParam",
+            "ruleValue": "fillParam(countryCode,KE)"
+          }
+        ],
+        "requiredUserInput": null
+      },
+      {
+        "Id": "6230167cfa0daaf4bd7880be",
+        "Order": 2,
+        "MpaKey": "creditPartyIdentifier",
+        "MpaParentKey": null,
+        "MpaFieldId": "03",
+        "MpaFieldName": "Credit Party Identifier",
+        "MapFieldId": null,
+        "MapFieldName": "CPI",
+        "Validations": {
+          "Required": true,
+          "Format": "ANS",
+          "LengthType": "ranged",
+          "LengthMin": 1,
+          "LengthMax": 25
+        },
+        "DefaultValue": null,
+        "ValueMap": null,
+        "Children": [],
+        "Rules": null,
+        "requiredUserInput": null
+      }
+    ],
+    "IsActive": true,
+    "IsLegacy": false,
+    "QRFormatType": "Piped",
+    "CRCFormat": "CRC-16/MCRF4XX",
+    "Version": null,
+    "Id": "6230167cfa0daaf4bd7880c1",
+    "CreatedDate": "2022-03-15T04:30:52.104Z",
+    "UpdatedDate": "2022-04-08T02:35:55.855Z",
+    "CreatedBy": "Ranjana Raigama",
+    "ModifiedBy": "Harshan Poobalasingham"
+  },
+  {
+    "Template": "Kenya (SFC) kasun",
+    "Market": "kenya",
+    "Network": "SFC",
+    "TransactionType": "04",
+    "MpaBaseVersion": "1.0",
+    "SpecificationFieldRegex": "^(.{2})\\|(.{1,25})\\|?(.{1,13})?\\|?(.{1,25})?$",
+    "Rank": 0,
+    "Stage": "testing",
+    "Status": "in-progress",
+    "DraftStep": 3,
+    "Fields": [
+      {
+        "Id": "624c151fd942ae72afd6c385",
+        "Order": 1,
+        "MpaKey": "trxCode",
+        "MpaParentKey": null,
+        "MpaFieldId": "02",
+        "MpaFieldName": "Trx Code",
+        "MapFieldId": null,
+        "MapFieldName": "TrxCode",
+        "Validations": {
+          "Required": true,
+          "Format": "N",
+          "LengthType": "fixed",
+          "LengthMin": 2,
+          "LengthMax": 2
+        },
+        "DefaultValue": "",
+        "ValueMap": [
+          {
+            "MpaValue": "01",
+            "MapValue": "BG"
+          },
+          {
+            "MpaValue": "02",
+            "MapValue": "WA"
+          },
+          {
+            "MpaValue": "03",
+            "MapValue": "PB"
+          },
+          {
+            "MpaValue": "04",
+            "MapValue": "SM"
+          },
+          {
+            "MpaValue": "05",
+            "MapValue": "SB"
+          }
+        ],
+        "Children": [],
+        "Rules": [
+          {
+            "ruleType": "fillParam",
+            "ruleValue": "fillParam(countryCode,KE)"
+          }
+        ],
+        "requiredUserInput": null
+      },
+      {
+        "Id": "624c151fd942ae72afd6c386",
+        "Order": 2,
+        "MpaKey": "creditPartyIdentifier",
+        "MpaParentKey": null,
+        "MpaFieldId": "03",
+        "MpaFieldName": "Credit Party Identifier",
+        "MapFieldId": null,
+        "MapFieldName": "CPI",
+        "Validations": {
+          "Required": true,
+          "Format": "ANS",
+          "LengthType": "ranged",
+          "LengthMin": 1,
+          "LengthMax": 25
+        },
+        "DefaultValue": null,
+        "ValueMap": null,
+        "Children": [],
+        "Rules": null,
+        "requiredUserInput": null
+      },
+      {
+        "Id": "624c151fd942ae72afd6c387",
+        "Order": 3,
+        "MpaKey": "amount",
+        "MpaParentKey": null,
+        "MpaFieldId": "06",
+        "MpaFieldName": "Amount",
+        "MapFieldId": null,
+        "MapFieldName": "Amount",
+        "Validations": {
+          "Required": false,
+          "Format": "ANS",
+          "LengthType": "ranged",
+          "LengthMin": 1,
+          "LengthMax": 13
+        },
+        "DefaultValue": null,
+        "ValueMap": null,
+        "Children": [],
+        "Rules": null,
+        "requiredUserInput": null
+      },
+      {
+        "Id": "624c151fd942ae72afd6c388",
+        "Order": 4,
+        "MpaKey": "refNo",
+        "MpaParentKey": null,
+        "MpaFieldId": "08",
+        "MpaFieldName": "Ref No",
+        "MapFieldId": null,
+        "MapFieldName": "RefNo",
+        "Validations": {
+          "Required": false,
+          "Format": "ANS",
+          "LengthType": "ranged",
+          "LengthMin": 1,
+          "LengthMax": 25
+        },
+        "DefaultValue": null,
+        "ValueMap": null,
+        "Children": [],
+        "Rules": null,
+        "requiredUserInput": null
+      }
+    ],
+    "IsActive": true,
+    "IsLegacy": false,
+    "QRFormatType": "Piped",
+    "CRCFormat": "CRC-16/MCRF4XX",
+    "Version": {
+      "SpecificationId": "624c151fd942ae72afd6c389",
+      "SpecificationDateTime": "2022-04-05T10:08:31.422Z",
+      "ParentVersion": "n",
+      "VersionNumber": 2,
+      "IsActive": true
+    },
+    "Id": "624fe8d98d6017a49e7238a0",
+    "CreatedDate": "2022-04-08T07:48:41.143Z",
+    "UpdatedDate": "2022-04-08T07:50:08.397Z",
+    "CreatedBy": "Super Admin",
+    "ModifiedBy": "Super Admin"
+  }
+]

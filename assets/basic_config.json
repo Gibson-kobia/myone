@@ -1,0 +1,28 @@
+{
+  "configTypes": [
+    "OpenPageConfig",
+    "parameterLimits",
+    "merchantAppIdConfig",
+    "cashInConfig",
+    "cashOutConfig",
+    "shareAppMSG",
+    "staticPageUrl",
+    "enableBiometricPayTimes",
+    "languageBeanList",
+    "miniAppCashOutConfig",
+    "miniAppCashInConfig",
+    "h5AppMerchantConfig",
+    "miniAppPermissionConfig",
+    "h5PermissionConfig",
+    "colorConfig",
+    "priorityConfig",
+    "ExecuteConfig",
+    "switchParameterConfig",
+    "cubeBizServerConfig",
+    "miniAppCubeServerConfig",
+    "WithdrawChargeConfig",
+    "customizationParameterLimits",
+    "sessionTimeoutSecond",
+    "securityConfig"
+  ]
+}

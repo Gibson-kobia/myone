@@ -1,0 +1,19 @@
+{
+  "languageBeanList": [
+    {
+      "language": "English",
+      "languageCode": "en",
+      "countryIcon": "icon_en"
+    },
+    {
+      "language": "简体中文",
+      "languageCode": "zh",
+      "countryIcon": "icon_zh"
+    },
+    {
+      "countryIcon": "icon_ar",
+      "language": "بالعربية",
+      "languageCode": "ar"
+    }
+  ]
+}

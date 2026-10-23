@@ -1,0 +1,174 @@
+[
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "TEXT",
+    "key": "scheduleName",
+    "label": "@string/schedule_payment_create_title2",
+    "maxLength": 64,
+    "modifiable": true,
+    "regularExpr": "^([0-9A-Za-z ]{1,64})$",
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips2",
+    "errorMessage": "@string/schedule_payment_create_tips14",
+    "value": ""
+  },
+  {
+    "dataType": "NUMBER",
+    "defaultValue": null,
+    "elementType": "MOBILE",
+    "key": "receiverMsisdn",
+    "label": "@string/schedule_payment_create_title3",
+    "maxLength": 11,
+    "modifiable": true,
+    "regularExpr": "^([0-9]{13})$",
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips3",
+    "errorMessage": "@string/schedule_payment_create_tips13",
+    "value": ""
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "AMOUNT",
+    "key": "amount",
+    "label": "@string/schedule_payment_create_title4",
+    "maxLength": 2147483647,
+    "modifiable": true,
+    "regularExpr": null,
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips4",
+    "errorMessage": "@string/schedule_payment_create_tips4",
+    "value": ""
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "DATE_FOREVER",
+    "key": "firstPaymentReminderDate",
+    "label": "@string/schedule_payment_create_title5",
+    "maxLength": 2147483647,
+    "modifiable": true,
+    "regularExpr": null,
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips5",
+    "errorMessage": "@string/schedule_payment_create_tips5",
+    "value": ""
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "DATE_FOREVER",
+    "key": "issuePaymentReminderUntil",
+    "label": "@string/schedule_payment_create_title6",
+    "maxLength": 2147483647,
+    "modifiable": true,
+    "regularExpr": null,
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips6",
+    "errorMessage": "@string/schedule_payment_create_tips6",
+    "value": ""
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "SELECT",
+    "key": "frequency",
+    "label": "@string/schedule_payment_create_title7",
+    "maxLength": 2147483647,
+    "modifiable": true,
+    "regularExpr": null,
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips7",
+    "errorMessage": "@string/schedule_payment_create_tips7",
+    "value": "",
+    "selectInfos": [
+      {
+        "key": "1",
+        "label": "@string/schedule_payment_frequency_label1"
+      },
+      {
+        "key": "2",
+        "label": "@string/schedule_payment_frequency_label2"
+      },
+      {
+        "key": "3",
+        "label": "@string/schedule_payment_frequency_label3"
+      },
+      {
+        "key": "4",
+        "label": "@string/schedule_payment_frequency_label4"
+      },
+      {
+        "key": "5",
+        "label": "@string/schedule_payment_frequency_label5"
+      },
+      {
+        "key": "6",
+        "label": "@string/schedule_payment_frequency_label6"
+      },
+      {
+        "key": "7",
+        "label": "@string/schedule_payment_frequency_label7"
+      },
+      {
+        "key": "8",
+        "label": "@string/schedule_payment_frequency_label8"
+      },
+      {
+        "key": "9",
+        "label": "@string/schedule_payment_frequency_label9"
+      }
+    ]
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "SELECT",
+    "key": "preWarningPeriod",
+    "label": "@string/schedule_payment_create_title8",
+    "maxLength": 2147483647,
+    "modifiable": true,
+    "regularExpr": null,
+    "required": true,
+    "tips": "@string/schedule_payment_create_tips8",
+    "errorMessage": "@string/schedule_payment_create_tips8",
+    "value": "",
+    "selectInfos": [
+      {
+        "key": "1",
+        "label": "1"
+      },
+      {
+        "key": "2",
+        "label": "2"
+      },
+      {
+        "key": "3",
+        "label": "3"
+      },
+      {
+        "key": "4",
+        "label": "4"
+      },
+      {
+        "key": "5",
+        "label": "5"
+      }
+    ]
+  },
+  {
+    "dataType": "TEXT",
+    "defaultValue": null,
+    "elementType": "TEXT",
+    "key": "freeText",
+    "label": "@string/schedule_payment_create_title9",
+    "maxLength": 64,
+    "modifiable": true,
+    "regularExpr": "^([0-9a-zA-Z,.; ]{0,64})$",
+    "required": false,
+    "tips": "@string/schedule_payment_create_tips9",
+    "errorMessage": "@string/schedule_payment_create_tips15",
+    "value": ""
+  }
+]

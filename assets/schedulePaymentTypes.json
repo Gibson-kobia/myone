@@ -1,0 +1,17 @@
+[
+  {
+    "transactionType": "P2PTransfer",
+    "transactionName": "@string/schedule_payment_type_title2",
+    "transactionIcon": "icon_transfer_to_customer"
+  },
+  {
+    "transactionType": "AirtimeRecharge",
+    "transactionName": "@string/schedule_payment_type_title3",
+    "transactionIcon": "icon_buy_airtime"
+  },
+  {
+    "transactionType": "CustomerPayBill",
+    "transactionName": "@string/schedule_payment_type_title20",
+    "transactionIcon": "icon_pay_bill"
+  }
+]
